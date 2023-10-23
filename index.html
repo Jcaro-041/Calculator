@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="mt-5">
+      <div class="card container" style="max-width: 400px;">
+        <!--Beginning of adding elements-->
+        <p class="align-baseline m-1">
+          Number 1:
+          <input class="m-2" type="text" id="number1Field" />
+        </p>
+        <p class="align-baseline m-1">
+          Number 2:
+          <input class="m-2" type="text" id="number2Field" />
+        </p>
+        <!--Created grid to line up buttons correctly-->
+        <div class="row row-cols-auto">
+          <div class="col">
+            <input class="btn btn-dark" type="button" value="Add" id="Add" />
+          </div>
+          <div class="col">
+            <input class="btn btn-dark" type="button" value="Subtract" id="Subtract" />
+          </div>
+          <div class="col">
+            <input class="btn btn-dark" type="button" value="Multiply" id="Multiply" />
+          </div>
+          <div class="col">
+            <input class="btn btn-dark" type="button" value="Divide" id="Divide" />
+          </div>
+        </div>
+        <!--Answer field to print into using user added #'s-->
+          <p class="align-baseline m-1">
+            Answer:
+            <input class="m-2" type="text" id="answerField" />
+          </p>
+          <input type="button" id="ClearAnswer" class="m-2" value="CLEAR" />
+          <input type="button" id="ClearAll" class="m-2" value="CLEAR ALL" />
+        </div>
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
