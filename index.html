@@ -12,6 +12,25 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light-subtle">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="border: solid 1px; padding: 8px" >Calculators</a>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Calculator</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="f_to_c.html">Fahrenheit to Celcius</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="c_to_f.html">Celcius to Fahrenheit</a>
+            </li>
+
+          </ul>
+    </nav>
+
     <div class="mt-5">
       <div class="card container" style="max-width: 400px;">
         <!--Beginning of adding elements-->
@@ -39,9 +58,9 @@
           </div>
         </div>
         <!--Answer field to print into using user added #'s-->
-          <p class="align-baseline m-1">
+          <p class="align-baseline m-1 p-3">
             Answer:
-            <input class="m-2" type="text" id="answerField" />
+            <input class="m-2 " type="text" id="answerField" />
           </p>
           <input type="button" id="ClearAnswer" class="m-2" value="CLEAR" />
           <input type="button" id="ClearAll" class="m-2" value="CLEAR ALL" />

@@ -16,22 +16,22 @@ function init(){
 // when add button clicked it will run this script to add the inputs together
 
 function onAddBtnClick(){
-    answerField.value = parseInt(number1Field.value) + parseInt(number2Field.value);
+    answerField.value = parseFloat(number1Field.value) + parseFloat(number2Field.value);
 }
 
 // when subtract button clicked it will subtract the 2 inputs
 function onSubtractBtnClick(){
-    answerField.value = parseInt(number1Field.value) - parseInt(number2Field.value);
+    answerField.value = parseFloat(number1Field.value) - parseFloat(number2Field.value);
 }
 
 // when multiply button clicked it will subtract the 2 inputs
 function onMultiplyBtnClick(){
-    answerField.value = parseInt(number1Field.value) * parseInt(number2Field.value);
+    answerField.value = parseFloat(number1Field.value) * parseFloat(number2Field.value);
 }
 
 // when divide button clicked it will subtract the 2 inputs
 function onDivideBtnClick(){
-    answerField.value = parseInt(number1Field.value) / parseInt(number2Field.value);
+    answerField.value = parseFloat(number1Field.value) / parseFloat(number2Field.value);
 }
 
 // clears the answer field
